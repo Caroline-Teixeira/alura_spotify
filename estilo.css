@@ -90,9 +90,9 @@ h1{
     color: #b3b3b3;
     background-color: transparent;
     border: 0px;
-    font-size: 1rem;
+    font-size: 1rem; /*define o tamanho da fonte de um elemento em relação ao tamanho da fonte do elemento pai, no caso library.*/
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'DM sans', sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
