@@ -70,30 +70,56 @@ h1{
     font-family: "DM Sans", sans-serif;
 
 }
-.biblio {
-    margin-left: 0px; /* Para deixar espaço para a barra lateral */
-    margin-top: 0px;
-    padding: 18px;
-    background-color: #121212; /* Cor de fundo da seção */
-    border-radius: 8px;
-    
-}
 
-.livro {
-    font-family: "DM Sans", sans-serif;
+.library {
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 8px;
     color: #b3b3b3;
-    text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+    margin-top: 10px;
+    flex-direction: column;
+    min-block-size: 40px;
+}
+
+.library .library_button {
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.library .library_button span {
+    font-size: 14px;
+}
+
+.library .library_button .fa {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 8px;
+    
 
 }
 
-.fa-book{
-    color: #b3b3b3; 
+.library_content {
+    display: flex;
+    justify-content: space-between;
 }
 
-.fa-plus::before {
-    color: #b3b3b3; 
+.library .library_content .fa-plus { /*botão mais +*/
+   margin: 24px 10px;
 }
 
 
