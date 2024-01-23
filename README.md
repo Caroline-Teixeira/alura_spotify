@@ -1,5 +1,5 @@
 # alura_spotify
- Projeto desenvolvido durante #ImersãoFrontEnd promovido pela escola #Alura
+ Cópia do Site Spotify. Projeto desenvolvido durante #ImersãoFrontEnd promovido pela escola #Alura
 
  <h4>Dia 1</h4>
  
