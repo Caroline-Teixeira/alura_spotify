@@ -13,6 +13,7 @@ h1{
     color: #fff;
 }
 
+/*Barra de navegação lateral superior = Início e buscar*/
 .sidebar{
     position: fixed;
     top: 0;
@@ -20,28 +21,20 @@ h1{
     bottom: 0;
     padding: 12px;
     width: 300px;
+    background-color: #000;
 }
 
-.sidebar_navigation{
+.sidebar__navigation{
     background-color: #121212;
     border-radius: 8px; /*bordas*/
-    padding: 16px 0 0 16px; 
+    /*padding: 16px 0 0 16px; 
     margin-bottom: 20px; /*margem inferior */
 
 
 }
 
-.sidebar_navigation2{
-    background-color: #121212;
-    border-radius: 8px; /*bordas*/
-    padding: 16px 0 0 16px; 
-    
 
-
-}
-
-
-.sidebar_navigation .logo{
+.sidebar__navigation .logo{
     background: #121212;
     display: flex;
     border-radius: 8px;
@@ -54,11 +47,12 @@ h1{
 }
 
 .sidebar nav ul{
+    list-style: none;
     margin-top: 20px;
     padding: 0 20px 10px 20px;
 }
 
-.sidebar ul li {
+.sidebar nav ul li {
     padding: 10px 0;
 }
 
@@ -70,11 +64,20 @@ h1{
     font-family: "DM Sans", sans-serif;
 
 }
+.sidebar nav ul li .fa { /*ícones*/
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.sidebar nav ul li a:hover {
+    color: #ffffff;
+}
 
+/*Barra de navegação lateral inferior - bibliotecas*/
 .library {
+    display: flex;
     background-color: #121212;
     border-radius: 8px;
-    display: flex;
     justify-content: space-between;
     padding: 4px 8px;
     color: #b3b3b3;
@@ -85,11 +88,17 @@ h1{
     min-block-size: 40px;
 }
 
-.library .library_button {
+.library__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button {
+    display: flex;
     margin-right: 10px;
     color: #b3b3b3;
     background-color: transparent;
-    border: 0px;
+    border: 0px; /*para tirar o contorno do botão*/
     font-size: 1rem; /*define o tamanho da fonte de um elemento em relação ao tamanho da fonte do elemento pai, no caso library.*/
     font-weight: 700;
     font-family: 'DM sans', sans-serif;
@@ -97,29 +106,157 @@ h1{
     text-decoration: none;
     text-transform: none;
     padding: 20px 10px;
-    display: flex;
+    cursor: pointer;
+    
+    
 }
 
-.library .library_button span {
-    font-size: 14px;
-}
-
-.library .library_button .fa {
+.library .library__button .fa {
     font-size: 20px;
     margin-right: 10px;
     font-weight: 300;
     padding-right: 8px;
+    cursor: pointer;
+}
+
+.library .library__content .fa-plus { /*botão mais +*/
+    margin: 24px 10px;
+    cursor: pointer;
+ }
+ 
+
+.library .library__button span {
+    font-size: 16px;
     
+}
+
+.section-playlist{
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #242424;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
 
 }
 
-.library_content {
+.section-playlist .section-playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-playlist__content .text{
+    padding-bottom: 14px;
+    color: #fff;
+    font-family: 'DM sans', sans-serif;
+}
+
+.section-playlist__content .title{
+    font-weight: 700;
+}
+
+.section-playlist__content .subtitle{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.section-playlist__content .section-playlist__button{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+    cursor: pointer;
+    
+}
+
+.sidebar .cookies {
+    margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+    color: #b3b3b3;
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+
+.sidebar .cookies a:hover{ /*underline*/
+    text-decoration: underline;
+    
+}
+
+.languages .languages__button{
+    align-items: center; /*não precisa display flex porque só tem um item: o texto*/
+    background-color: transparent;
+    border: 1px solid #878787;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    width: 170px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 20px;
+    
+}
+
+/*rodape*/
+.disclaimer-premium {
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
+    font-family: "DM Sans", sans-serif;
 }
 
-.library .library_content .fa-plus { /*botão mais +*/
-   margin: 24px 10px;
+.disclaimer-premium .text {
+    flex-shrink: 0;
+}
+
+.disclaimer-premium .disclaimer-premiumtitle {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.disclaimer-premium .disclaimer-premiumsubtitle {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.disclaimer-premium button {
+    background-color: #ffffff;
+    border-radius: 40px;
+    border: 0px;
+    color: #000000;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
 }
 
 
