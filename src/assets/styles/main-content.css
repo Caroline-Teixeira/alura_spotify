@@ -1,10 +1,11 @@
-/*Barra superior de busca*/
+/*BARRA SUPERIOR DE BUSCA*/
 
 .main-container{
     max-width: 80vw;
+    height: 100vh;
     margin-left: 320px;
     margin-right: 56px;
-    /*height: 100vh; /*100% de altura* - removido para não atrapalhar o outro cointainer*/
+   
 }
 
 .header__navigation{
@@ -95,12 +96,12 @@
     border-radius: 40px;
 }
 
- /*playlist*/
- .playlist-container {  /*ver se tem outra*/
-    height: 60vh; /*lembrar de apagar depois*/
-    max-width: 70vw;
-    padding-top: 16px;
-    margin-left: 330px;
+
+ /*PLAYLIST*/
+ .playlist-container {
+    height: 72vh;
+    padding-top: 1rem;
+    margin: 10px;
     border-radius: 10px;
     background-color: var(--bg-box);
   }

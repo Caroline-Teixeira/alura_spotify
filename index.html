@@ -83,41 +83,44 @@
 
     <!--Conteúdo principal-->
     <main>
-        <div class="main-container">
-            <nav class="header__navigation">
-                <div class="navigation">
-                    <button class="arrow-left">
-                        <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+        <div class="main-container"> <!--barra superior-->
+          <nav class="header__navigation">
+            <div class="navigation">
+              <button class="arrow-left"> 
+                <img src="./src/assets/icons/small-left.png" alt="Voltar página" title="Voltar página"/>
+              </button>
+  
+              <button class="arrow-right">
+                <img src="./src/assets/icons/small-right.png" alt="Avançar página" title="Avançar página"/>
+              </button>
+            </div>
+  
+            <div class="header__search"> <!--Barra de buscar-->
+              <img src="./src/assets/icons/search.png" alt="" />
+              <input
+                id="search-input"
+                type="text"
+                maxlength="800"
+                placeholder="O que você quer ouvir?"
+              />
+            </div>
+  
+            <div class="header__login"> 
+              <button class="subscribe">Inscreva-se</button>
+              <button class="login">Entrar</button>
+            </div>
+          </nav>
+  
 
-                    </button>
-                    <button class="arrow-right">
-                        <img src="./src/assets/icons/small-right.png" alt="seta direita">
-
-                    </button>
-                </div>
-                    <div class="header__search"> <!--Barra de buscar-->
-                        <img src="./src/assets/icons/search.png" alt="">
-                        <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?" />
-                    </div>
-
-                    <div class="header__login">
-                        <button class="subscribe">Inscreva-se</button>
-                        <button class="login">Entrar</button>
-                    </div>
-            </nav>
-        </div>
-
-        <!--Playlist-->
-        <div class="playlist-container">
+          <!--Seção de Playlist-->
+          <div class="playlist-container">
             <div class="playlist">
-              <h1 id="greeting">Boa tarde</h1>
+              <h1 id="greeting">Olá!</h1>
               <h2 class="session">Navegar por todas as seções</h2>
             </div>
           </div>
-        </div>      
-
-    
-    </main>
+        </div>
+      </main>
 
 
     <footer class="disclaimer-premium"><!--rodapé-->
