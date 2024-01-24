@@ -1,16 +1,14 @@
-*{
-    text-decoration: none;
-}
+/*Barra lateral e rodapé*/
 
 body {
-    background-color: #000;
-    font-family: "DM Sans", sans-serif;
+    background-color: var(--bg-backgroud);
+    font-family: var(--font-dm-sans); /*root no estilo 'vars'*/
 
     
 }
 
 h1{
-    color: #fff;
+    color: var(--bg-word);
 }
 
 /*Barra de navegação lateral superior = Início e buscar*/
@@ -21,11 +19,11 @@ h1{
     bottom: 0;
     padding: 12px;
     width: 300px;
-    background-color: #000;
+    background-color: var(--bg-backgroud);
 }
 
 .sidebar__navigation{
-    background-color: #121212;
+    background-color: var(--bg-box);
     border-radius: 8px; /*bordas*/
     /*padding: 16px 0 0 16px; 
     margin-bottom: 20px; /*margem inferior */
@@ -35,7 +33,7 @@ h1{
 
 
 .sidebar__navigation .logo{
-    background: #121212;
+    background: var(--bg-box);
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
@@ -61,7 +59,6 @@ h1{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans", sans-serif;
 
 }
 .sidebar nav ul li .fa { /*ícones*/
@@ -70,13 +67,13 @@ h1{
     font-weight: 300;
 }
 .sidebar nav ul li a:hover {
-    color: #ffffff;
+    color: var(--bg-word);
 }
 
 /*Barra de navegação lateral inferior - bibliotecas*/
 .library {
     display: flex;
-    background-color: #121212;
+    background-color: var(--bg-box);
     border-radius: 8px;
     justify-content: space-between;
     padding: 4px 8px;
@@ -101,7 +98,6 @@ h1{
     border: 0px; /*para tirar o contorno do botão*/
     font-size: 1rem; /*define o tamanho da fonte de um elemento em relação ao tamanho da fonte do elemento pai, no caso library.*/
     font-weight: 700;
-    font-family: 'DM sans', sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -152,8 +148,7 @@ h1{
 
 .section-playlist__content .text{
     padding-bottom: 14px;
-    color: #fff;
-    font-family: 'DM sans', sans-serif;
+    color: var(--bg-word);
 }
 
 .section-playlist__content .title{
@@ -168,12 +163,11 @@ h1{
 .section-playlist__content .section-playlist__button{
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--bg-word);
+    color: var(--bg-backgroud);
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans", sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -205,7 +199,7 @@ h1{
     align-items: center; /*não precisa display flex porque só tem um item: o texto*/
     background-color: transparent;
     border: 1px solid #878787;
-    color: #fff;
+    color: var(--bg-word);
     font-weight: bold;
     font-size: 14px;
     cursor: pointer;
@@ -226,7 +220,7 @@ h1{
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
-    font-family: "DM Sans", sans-serif;
+    
 }
 
 .disclaimer-premium .text {
@@ -234,7 +228,7 @@ h1{
 }
 
 .disclaimer-premium .disclaimer-premiumtitle {
-    color: #ffffff;
+    color: var(--bg-word);
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 10px;
@@ -242,16 +236,16 @@ h1{
 }
 
 .disclaimer-premium .disclaimer-premiumsubtitle {
-    color: #ffffff;
+    color: var(--bg-word);
     font-size: 14px;
     font-weight: 500;
 }
 
 .disclaimer-premium button {
-    background-color: #ffffff;
+    background-color: var(--bg-word);
     border-radius: 40px;
     border: 0px;
-    color: #000000;
+    color: var(--bg-backgroud);
     cursor: pointer;
     flex-shrink: 0;
     font-size: 16px;
