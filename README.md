@@ -10,4 +10,6 @@
  ![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/2e144cdc-42bb-4f33-9b51-e9e3b762e39c)
 
 
- 
+ <h4>Dia 3</h4>
+ ![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/da52b726-6313-4e16-98ec-50e6586964fc)
+
