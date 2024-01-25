@@ -1,16 +1,14 @@
 # alura_spotify
- Cópia do Site Spotify. Projeto desenvolvido durante #ImersãoFrontEnd promovido pela escola #Alura
+ Cópia do site Spotify. Projeto desenvolvido durante #ImersãoFrontEnd promovido pela escola #Alura entre os dias 22 a 26 de janeiro. <br>
+Status: em andamento
 
- <h4>Dia 1</h4>
- 
- ![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/1d24946b-9633-4b1c-b18d-96a5fbcf8893)
+<h4>Linguagens:</h4>
+<p align="left">
+<!--HTML--><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/> </a> 
+<!--CSS--><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/> </a> 
+<!--JavaScript--><img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></a><br>
+ </p>
 
- <h4>Dia 2</h4>
- 
- ![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/2e144cdc-42bb-4f33-9b51-e9e3b762e39c)
-
-
- <h4>Dia 3</h4>
  
  ![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/da52b726-6313-4e16-98ec-50e6586964fc)
 
