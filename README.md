@@ -10,7 +10,10 @@ Status: em andamento
  </p>
 
  
- ![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/da52b726-6313-4e16-98ec-50e6586964fc)
+![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/bf3afc5e-b512-4882-aab8-2a270671c442)
+![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/43a86a4d-764a-4d53-bd7a-60e9a8f8b315)
+
+
 
 <h4>Observações</h4>
 <h5>Caso a as imagens do json-server não carrege, execute no terminal:</h5>
