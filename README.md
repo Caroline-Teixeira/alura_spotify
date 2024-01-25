@@ -18,5 +18,5 @@ Status: em andamento
 <h4>Observações</h4>
 <h5>Caso as imagens do json-server não carreguem, execute no terminal:</h5>
 <h6>npm uninstall -g json-server <br>
-npm install -g json-server@0.17.4.  <br>
+npm install -g json-server@0.17.4  <br>
 json-server --watch api-artists/artists.json --port 3000</h6>
