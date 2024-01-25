@@ -13,7 +13,7 @@ Status: em andamento
  ![image](https://github.com/Caroline-Teixeira/alura_spotify/assets/131414771/da52b726-6313-4e16-98ec-50e6586964fc)
 
 <h4>Observações</h4>
-Caso a as imagens do json-server não carrege, execute no terminal:
+<h6>Caso a as imagens do json-server não carrege, execute no terminal:</h6> <br>
 npm uninstall -g json-server <br>
 npm install -g json-server@0.17.4.  <br>
 json-server --watch api-artists/artists.json --port 3000
