@@ -1,6 +1,5 @@
 # alura_spotify
- Cópia do site Spotify. Projeto desenvolvido durante a #ImersãoFrontEnd promovido pela escola #Alura entre os dias 22 a 26 de janeiro. <br>
-Status: em andamento
+Cópia do site Spotify. Projeto desenvolvido durante a #ImersãoFrontEnd promovido pela escola #Alura entre os dias 22 a 26 de janeiro. <br>
 
 <h4>Linguagens:</h4>
 <p align="left">
